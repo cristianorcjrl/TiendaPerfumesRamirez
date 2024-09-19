@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Compra de Perfume</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Simulador AROMEN X</h1>
+    </header>
+    <main>
+        <section id="productos">
+            <h2>Productos Disponibles</h2>
+            <ul id="lista-productos" class="contenedor-productos">
+                <!-- Aquí se van a agregar los productos mediante el DOM -->
+            </ul>
+        </section>
+        <section id="carrito">
+            <h2>Carrito de Compras</h2>
+            <ul id="lista-carrito">
+                <!-- Aquí se se van a agregar los productos seleccionados mediante el DOM -->
+            </ul>
+            <p id="total-carrito">Total: $0</p>
+            <button id="realizar-compra">Realizar Compra</button>
+            <p id="mensaje-compra"></p>
+            <p id="mensaje-error" style="color: red; display: none;"></p> <!-- Mensaje de error -->
+        </section>
+    </main>
+    <footer>
+        <p>Cristian Ramírez</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
