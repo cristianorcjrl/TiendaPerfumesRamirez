@@ -1,4 +1,4 @@
-/* General */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -10,7 +10,7 @@ body {
     min-height: 100vh;
 }
 
-/* Header */
+
 header {
     background-color: #7622a3;
     color: white;
@@ -18,7 +18,6 @@ header {
     text-align: center;
 }
 
-/* Main Section */
 main {
     display: flex;
     flex-direction: column;
